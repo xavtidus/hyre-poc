@@ -1,7 +1,7 @@
 # Hyre AI PoC – Capability Assessment
 
 **Candidate:** Xavier Hutchinson  
-**Role:** Principal AI Engineer / Architect  
+**Role:** For Discussion  
 **Date:** 27 October 2025
 
 ---
