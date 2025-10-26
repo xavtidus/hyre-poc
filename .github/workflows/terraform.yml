@@ -1,0 +1,22 @@
+name: Terraform CI/CD
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  terraform:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+
+      - name: Terraform Init
+        run: terraform init
+        working-directory: infra
+
+      - name: Terraform Plan
+        run: terraform plan -var "openai_api_key=${{ secrets.OPENAI_API_KEY }}" -var "pinecone_api_key=${{ secrets.PINECONE_API_KEY }}"
+        working-directory: infra
