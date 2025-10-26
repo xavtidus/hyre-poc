@@ -133,12 +133,6 @@ curl -X POST http://localhost:8000/agent \
 - **Git-safe secrets** (`.env.example`, `.gitignore`)
 - **Architecture diagram** (Mermaid)
 
-### Up Next
-- Full **EKS deployment**
-- **OpenTelemetry** tracing
-- **CI/CD** with GitHub Actions
-- **Loom demo** (3 mins)
-
 ---
 
 ## Agent Capabilities
