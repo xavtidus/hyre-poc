@@ -1,0 +1,137 @@
+##Overview
+🌱 Hyre is a boutique tech talent consultancy we help organisations build high performing technology teams from Software Engineering and Cloud Engineering to Data, AI, DevOps, and Platform Security.
+We help organisations build high performing technology teams across Software Engineering, Cloud Engineering, Data, AI, DevOps, and Platform Security.
+Hyre understand the technologies driving change including; LLMs, RAG, GenAI platforms, Intelligent Automation, and Cloud Native infrastructure. Our expertise spans the full tech stack, from foundational systems to frontier innovation.
+With a trusted network across Australia 🇦🇺, New Zealand 🇳🇿, and the USA 🇺🇸, Hyre connect organisations with exceptional technical talent who deliver real world impact in regulated environments, high growth sectors, and mission critical teams.
+Hyre have supported partners across Banking, Fintech, SaaS, Renewable Energy, Healthtech, and AI Native ventures helping them scale securely, innovate faster, and hire with confidence.
+What sets us apart is our narrative led approach to talent engagement 🗣️ We craft compelling, on brand employer stories that elevate your EVP and bring your mission to life ensuring your hiring strategy resonates with the right people, not just more people 🌟
+📣 Looking for your next role in tech? We work closely with engineers, data talent, and AI specialists to match great people with meaningful work.
+Website
+    - http://www.hyre.com.au 
+Phone
+    - 0410429762 Phone number is 0410429762 
+Industry
+    - Staffing and Recruiting 
+Company size
+    - 2-10 employees 
+    - 11 associated members 
+Headquarters
+    - Surry Hills, New South Wales 
+Founded
+    - 2017 
+Specialties
+    - AI, Software Engineering, DevOps, SRE, LLM, RAG, Cloud, Product, Startups, Fintech, Healthtech, Agtech, Banking, AWS, Azure, TypeScript, Python, React, Data, Cyber Security, Machine Learning, NLP, EVP, Marketing, Node.JS, Vue.JS, and Fun 
+
+##Locations
+**The Commons**
+Address: 285 Crown St, Surry Hills, New South Wales 2010, AU 
+
+
+#Linked In Posts
+## August 2025
+### POST 1
+📢 Attn - Node.JS / Typescript / React / Next People, we have something for everyone:
+👨‍💻 4x Senior Engineers – $140-160k + Super + Bonus – High growth AI legal scale up
+🚀 2x Senior Engineers – $180-210K + Super + Amazing ESOP – Hyper growth – AI infused Martech
+🏦 4x Staff Engineers – $210-230K + Super + Big Annual Bonus – Big four bank working on the most engaged banking app in the country
+🎯 1x Head of Engineering – $220-$240K + Super + ESOP – Fintech disrupting the loyalty space
+✉️ If any of this sounds of interest get in touch: Joe@hyre.com.au
+```hashtag#fintech 
+hashtag#martech 
+hashtag#engineers 
+hashtag#developer 
+hashtag#node.js 
+hashtag#next 
+hashtag#react 
+hashtag#loyalty 
+hashtag#banking 
+hashtag#esop 
+hashtag#scaleup hashtag
+hashtag#startup```
+
+###POST 2
+📣 We are very excited to start working on 2 brand-new, high-impact roles.
+We are working exclusively with one of the most exciting high growth Martech businesses in ANZ. Their growth has
+been unreal, they are extremely well funded and have a strong customer base building every day. I have been to both their NZ and AU office's and the culture looks amazing. 
+If you want to solve some interesting AI problems at scale with almost no tech debt this is worth investigating. 
+👩‍🔬 Data Scientist (AI & Growth)
+ ✨ Build AI features from scratch
+ 🧪 Lead experiments + insights
+ ⚙️ Automate workflows across GTM
+👨‍💻 Engineering Lead (Greenfield Build) - 
+ 🚀 Kick off a new product
+ 🧑‍🤝‍🧑 Hire + lead your own team
+ 🛠️ Shape the roadmap, culture + delivery
+📍 Sydney or remote across AU/NZ
+ 💬 If you're after something fresh, meaningful, and genuinely exciting — email me for the details - joe@hyre.com.au.
+`hashtag#hiring hashtag#ai hashtag#datascience hashtag#engineering hashtag#startups hashtag#saas`
+
+###POST 3
+💸 How much does a bad hire in Tech really cost? it runs far deeper than payroll.
+Here’s how the numbers usually break down 👇
+Direct costs:
+ 👨💻 Salary + Super (3–6 months): $60K–$90K
+ 🧾 Hiring time : Time of internal staff in process $15K
+ 🧠 Onboarding & training: $10K–$20K
+ 📉 Final pay/admin/legal: $5K–$10K
+Indirect costs:
+ ⏳ Productivity drag on the team: $20K–$50K+
+ 🚧 Project delays, missed milestones: $50K–$100K+
+ 📉 Opportunity cost (revenue, roadmap, morale) Priceless
+👉 Conservative total: $160K–$300K+
+And that’s assuming the hire is removed quickly. Let it drag and the damage compounds.
+In a small team, one misfire can set you back quarters.
+We have helped 200+ companies hire across Product Engineering, Cloud, and Data. If you're scaling and want to hear what we see that works, get in touch 😊
+joe@hyre.com.au
+`hashtag#techhiring hashtag#engineering hashtag#startups hashtag#founders hashtag#scaling hashtag#badhires`
+
+###POST 4
+ Are you a strong Full-stack Product Engineer who wants to have big impact building GenAI products?
+The internal team is already off to a flying start: a Principal Engineer, Data Scientist, Product Manager, and Designer are already in place. Now they’re searching for a Senior Full Stack Engineer to help bring this to life.
+If you’re someone who loves clean UX, sharp architecture, and gets excited by what LLMs can actually do inside real products this is one worth checking out.
+You will be working with React, TypeScript, and Node.js, while helping shape how AI and automation unlock insights for users. You won’t be sitting on the sidelines this is hands-on, high-impact engineering where your work ships fast and matters immediately.
+The culture? Fast-moving, collaborative, commercial. AI isn’t an afterthought here it’s the product.
+The business is a total rocket ship in the Martech space. They are building a brand-new AI product designed to make brand intelligence radically more accessible through LLMs and generative AI. Taking rich, proprietary brand data used by 600+ global brands 🌏 (across 🇦🇺 🇳🇿 🇺🇸 🇬🇧 🇨🇦) and turning it into a smart, intuitive platform for marketers and agencies.
+ 💸 ESOP
+ 🧘 Wellness & parental support
+ 🏝️ Six weeks’ annual leave
+ 🌆 Offices in Sydney, Auckland, NYC & London
+If you're a senior engineer who wants to build genuinely useful AI products with a great team behind you get in touch - joe@hyre.com.au
+
+## July 2025
+### POST 1
+🚨 Super exciting New Partner alert! 🚨
+Hyre have just exclusively teamed up with one of the fastest-growing brand-tech companies in the world and they’re doing something genuinely epic.
+Right now, they’re building a brand-new AI product designed to make brand intelligence radically more accessible through LLMs and generative AI. Taking rich, proprietary brand data used by 600+ global brands 🌏 (across 🇦🇺 🇳🇿 🇺🇸 🇬🇧 🇨🇦) and turning it into a smart, intuitive platform for marketers and agencies.
+The internal team is already off to a flying start: a Principal Engineer, Data Scientist, Product Manager, and Designer are already in place. Now they’re searching for a Senior Full Stack Engineer to help bring this to life.
+If you’re someone who loves clean UX, sharp architecture, and gets excited by what LLMs can actually do inside real products this is one worth checking out.
+You’ll be working with React, TypeScript, and Node.js, while helping shape how AI and automation unlock insights for users. You won’t be sitting on the sidelines this is hands-on, high-impact engineering where your work ships fast and matters immediately.
+The vibe? Fast-moving, collaborative, commercial. AI isn’t an afterthought here it’s the product.
+ 💸 ESOP
+ 🧘 Wellness & parental support
+ 🏝️ Six weeks’ annual leave
+ 🌆 Offices in Sydney, Auckland, NYC & London
+If you're a senior engineer who wants to build genuinely useful AI products with a great team behind you drop me a message or comment below. I’ll give you the inside scoop.
+`hashtag#AI hashtag#LLM hashtag#React hashtag#NodeJS hashtag#EngineeringJobs hashtag#GenerativeAI hashtag#FullStack hashtag#TechCareers hashtag#Hiring hashtag#SydneyTech hashtag#SoftwareEngineering`
+
+#POST 2
+🌱 Looking for an AI recommendation!
+We’re looking to partner with someone who can help build custom AI Agents for Hyre.
+Working almost exclusively with native AI companies or SaaS businesses actively implementing AI, I’m getting incredible exposure to how teams are thinking about Agentic AI and how it will reshape productivity. 🧠
+It’s sparked a big shift in my own thinking too.
+There are some clear ways we could use Agents inside Hyre to take repetitive work off our hands so we can spend more time doing what actually drives results — talking to or meeting people. 💬
+I’d love to connect with individuals or companies building Agent style solutions, especially ones who get how boutique businesses operate and want to be part of a sharp, outcome driven project. 🚀
+Tag, DM or intro me I’m all ears! 👇 - joe@hyre.com.au
+
+## June 2025
+### POST 1
+It’s that time again fresh roles, partner strategy, and a whole lot of exciting new projects landing at once 📈
+June’s going to be busy and we are looking forward to it 😎
+🚀 IVO – AI LegalTech (SF relocation) Hiring 2x Principal Engineers and a Founding DevOps Engineer. Work on cutting-edge AI with a path to San Francisco 🌉
+💸 High Growth Fintech Staff Data Engineer and Data Engineering Manager roles live now. Big scale, rich data, high impact.
+🌾 Global AgTech Leader Searching for a Junior Data Analyst to work side-by-side with the Head of Analytics. Great first step in a global org.
+💙 Social Impact (Not-for-Profit) Rolling out a brand new Data & AI practice to drive real community outcomes. Work that matters. The role we are working on is a Design Engineer (Hybrid Role) A unique blend of Front End Engineering and Product Design. Think data storytelling meets user-centred design.
+🧠 Stealth AI Startup We are launching a retained project to build a 10-person founding team across Engineering and Data. First two hires: Head of Engineering and Head of Data. This one’s going to be big 👀
+If anything here sounds like your vibe, would love to see your joe@hyre.com.au — or tag someone who should see this.
+Let’s chat 🗣️
+`hashtag#AI hashtag#Data hashtag#Engineering hashtag#TechCareers hashtag#Hyre hashtag#Hiring`

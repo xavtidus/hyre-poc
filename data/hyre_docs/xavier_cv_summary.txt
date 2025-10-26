@@ -1,0 +1,8 @@
+
+Xavier Hutchinson - Senior Solutions Architect, AWS (2017–2024)
+- Led AI/ML adoption across APJ and LATAM
+- Designed scalable cloud architectures for public sector and enterprise
+- Built interactive AI/ML/IoT exhibits at AWS re:Invent
+- Created internal training packages for day-1 feature readiness
+- Architected digital evidence system for Queensland Police (10,000+ cases/day)
+- High-availability voting system for Australian Electoral Commission (100,000+ hits/min)
