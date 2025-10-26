@@ -1,17 +1,16 @@
-
-Principal AI Engineer / Architect - $200k+ 
-Hyre, Sydney NSW (Hybrid)
-
-You'll be the technical architect and builder, designing the blueprint for intelligent systems - LLM apps, RAG pipelines, and agentic workflows - while leading a small cross-functional team as the practice scales.
-
-What you'll do:
-- Design scalable, secure, and modular architectures for client projects
-- Lead solution design and integration across AI, data, and business platforms
-- Build proof-of-concepts and internal automations to accelerate delivery
-- Embed best practice in security, deployment, and observability
-- Guide engineers and delivery teams on technical direction and standards
-
-Tech Stack:
+About the job
+🔥 Principal AI Engineer / Architect – $200–250K + Super | Sydney | Hybrid
+We’re building a brand new AI consulting & implementation firm designed to help Australian businesses turn AI into tangible commercial outcomes - not just hype.
+Backed by a successful, founder-led business group with strong brand equity across property, finance, and professional services, this new division has immediate traction, warm clients, and ambitious plans.
+You’ll be the technical architect and builder, designing the blueprint for intelligent systems - LLM apps, RAG pipelines, and agentic workflows - while leading a small cross-functional team as the practice scales.
+🧠 What you’ll do
+    - Design scalable, secure, and modular architectures for client projects
+    - Lead solution design and integration across AI, data, and business platforms
+    - Build proof-of-concepts and internal automations to accelerate delivery
+    - Embed best practice in security, deployment, and observability
+    - Guide engineers and delivery teams on technical direction and standards
+⚙️ Tech Stack
 AWS / Azure / GCP | LangChain | LlamaIndex | FastAPI | Pinecone / Weaviate | Docker / Kubernetes | Terraform | Python
-
 A rare greenfield AI opportunity with immediate backing, brand credibility, and a clear path to impact.
+If you’re ready to design, build and scale something meaningful - get in touch:
+jay@hyre.com.au
