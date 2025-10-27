@@ -2,19 +2,24 @@
 terraform {
   required_version = ">= 1.5.0"
   required_providers {
-    aws = {
-      source  = "hashicorp/aws"
+    google = {
+      source  = "hashicorp/google"
       version = "~> 5.0"
     }
   }
 }
 
-provider "aws" {
-  region = var.aws_region
+provider "google" {
+  project = var.gcp_project_id
+  region  = var.gcp_region
 }
 
 # === VARIABLES ===
-variable "aws_region" { default = "ap-southeast-2" }
+variable "gcp_project_id" { 
+  description = "GCP Project ID"
+  type        = string
+}
+variable "gcp_region" { default = "asia-southeast1" }
 variable "cluster_name" { default = "hyre-ai-prod" }
 
 variable "openai_api_key" {
@@ -27,56 +32,97 @@ variable "pinecone_api_key" {
   sensitive = true
 }
 
-# === EKS CLUSTER ===
-module "eks" {
-  source  = "terraform-aws-modules/eks/aws"
-  version = "~> 19.0"
+# === GKE CLUSTER ===
+resource "google_container_cluster" "primary" {
+  name     = var.cluster_name
+  location = var.gcp_region
 
-  cluster_name                    = var.cluster_name
-  cluster_version                 = "1.29"
-  subnet_ids                      = module.vpc.private_subnets
-  vpc_id                          = module.vpc.vpc_id
+  # We can't create a cluster with no node pool defined, but we want to only use
+  # separately managed node pools. So we create the smallest possible default
+  # node pool and immediately delete it.
+  remove_default_node_pool = true
+  initial_node_count       = 1
 
-  eks_managed_node_groups = {
-    core = {
-      desired_size = 2
-      min_size     = 1
-      max_size     = 3
-      instance_types = ["t3.medium"]
-    }
+  network    = google_compute_network.vpc.name
+  subnetwork = google_compute_subnetwork.subnet.name
+}
+
+resource "google_container_node_pool" "primary_nodes" {
+  name       = "${var.cluster_name}-node-pool"
+  location   = var.gcp_region
+  cluster    = google_container_cluster.primary.name
+  node_count = 1
+
+  node_config {
+    preemptible  = true
+    machine_type = "e2-medium"
+
+    oauth_scopes = [
+      "https://www.googleapis.com/auth/logging.write",
+      "https://www.googleapis.com/auth/monitoring",
+    ]
   }
 }
 
-# === VPC ===
-module "vpc" {
-  source  = "terraform-aws-modules/vpc/aws"
-  version = "~> 5.0"
-
-  name = "hyre-vpc"
-  cidr = "10.0.0.0/16"
-  azs  = ["${var.aws_region}a", "${var.aws_region}b"]
-
-  private_subnets = ["10.0.1.0/24", "10.0.2.0/24"]
-  public_subnets  = ["10.0.101.0/24", "10.0.102.0/24"]
-
-  enable_nat_gateway = true
-  single_nat_gateway = true
+# === VPC NETWORK ===
+resource "google_compute_network" "vpc" {
+  name                    = "hyre-vpc"
+  auto_create_subnetworks = false
 }
 
-# === SECRETS MANAGER ===
-resource "aws_secretsmanager_secret" "hyre_secrets" {
-  name = "hyre-ai-secrets"
+resource "google_compute_subnetwork" "subnet" {
+  name          = "hyre-subnet"
+  ip_cidr_range = "10.10.0.0/24"
+  region        = var.gcp_region
+  network       = google_compute_network.vpc.id
+
+  secondary_ip_range {
+    range_name    = "services-range"
+    ip_cidr_range = "192.168.1.0/24"
+  }
+
+  secondary_ip_range {
+    range_name    = "pod-ranges"
+    ip_cidr_range = "192.168.64.0/22"
+  }
 }
 
-resource "aws_secretsmanager_secret_version" "hyre_secrets" {
-  secret_id = aws_secretsmanager_secret.hyre_secrets.id
-  secret_string = jsonencode({
-    OPENAI_API_KEY   = var.openai_api_key
-    PINECONE_API_KEY = var.pinecone_api_key
-  })
+# === SECRET MANAGER ===
+resource "google_secret_manager_secret" "openai_api_key" {
+  secret_id = "openai-api-key"
+  
+  replication {
+    auto {}
+  }
+}
+
+resource "google_secret_manager_secret_version" "openai_api_key" {
+  secret      = google_secret_manager_secret.openai_api_key.id
+  secret_data = var.openai_api_key
+}
+
+resource "google_secret_manager_secret" "pinecone_api_key" {
+  secret_id = "pinecone-api-key"
+  
+  replication {
+    auto {}
+  }
+}
+
+resource "google_secret_manager_secret_version" "pinecone_api_key" {
+  secret      = google_secret_manager_secret.pinecone_api_key.id
+  secret_data = var.pinecone_api_key
 }
 
 # === OUTPUTS ===
+output "cluster_name" {
+  value = google_container_cluster.primary.name
+}
+
 output "cluster_endpoint" {
-  value = module.eks.cluster_endpoint
+  value = google_container_cluster.primary.endpoint
+}
+
+output "cluster_location" {
+  value = google_container_cluster.primary.location
 }
