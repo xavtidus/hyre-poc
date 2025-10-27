@@ -17,6 +17,16 @@ provider "aws" {
 variable "aws_region" { default = "ap-southeast-2" }
 variable "cluster_name" { default = "hyre-ai-prod" }
 
+variable "openai_api_key" {
+  type      = string
+  sensitive = true
+}
+
+variable "pinecone_api_key" {
+  type      = string
+  sensitive = true
+}
+
 # === EKS CLUSTER ===
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
